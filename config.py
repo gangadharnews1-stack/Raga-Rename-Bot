@@ -13,8 +13,8 @@ class Config(object):
     STRING_SESSION = os.environ.get("STRING_SESSION", "1BVtsOHQBuzSuNI72HS_iVpcZlVcTE8osN9hBZ_s7EyziONga8HmDbKhXpWMCRpqArk77-t93cG15RUAZex6DHDwRvdotluoQSTgoOdg3av2XNfD3gQG4Aiq1p4QU29K8VpRrvFiG_u8-VtAhrarIZx5X81Ko9l43LTuVT-9l3TKzNpFUyVnzK4JE1XjV-C0B-hUAkVuGcoMENcxy5MVptZ9zQaSNgAoSQbYOLvAT0yUjM65K-y42KWVD31GuR71d8ANMNLqThZLP0bb8j5LVNd0Jeab4T0xSAvUJ2lt7O9p7Q5Ektq4EEKgqfAAqNPfdLJ0eLAMKPkx5VM7zhrG7DtvqIo5GxHo=")
     
     # database config
-    DB_NAME = os.environ.get("DB_NAME", "Rename_Bot")     
-    DB_URL = os.environ.get("DB_URL", "mongodb+srv://Gangadhar123:Gangadhar123@cluster0.gfqrr6v.mongodb.net/?appName=Cluster0")
+    DB_NAME = os.environ.get("DB_NAME", "Cluster0")     
+    DB_URL = os.environ.get("DB_URL", "mongodb+srv://gangadharnews1_db_user:kCgeoBA2MJdtTI0w@cluster0.rdauxe4.mongodb.net/?appName=Cluster0")
  
     # other configs
     PIC = os.environ.get("PIC", "https://i.ibb.co/YTk9gzhY/IMG-20250906-144306-804.jpg")
