@@ -10,7 +10,7 @@ class Config(object):
     BOT = None
 
     # premium account string session required 😢 
-    STRING_SESSION = os.environ.get("STRING_SESSION", "1BVtsOHQBuzSuNI72HS_iVpcZlVcTE8osN9hBZ_s7EyziONga8HmDbKhXpWMCRpqArk77-t93cG15RUAZex6DHDwRvdotluoQSTgoOdg3av2XNfD3gQG4Aiq1p4QU29K8VpRrvFiG_u8-VtAhrarIZx5X81Ko9l43LTuVT-9l3TKzNpFUyVnzK4JE1XjV-C0B-hUAkVuGcoMENcxy5MVptZ9zQaSNgAoSQbYOLvAT0yUjM65K-y42KWVD31GuR71d8ANMNLqThZLP0bb8j5LVNd0Jeab4T0xSAvUJ2lt7O9p7Q5Ektq4EEKgqfAAqNPfdLJ0eLAMKPkx5VM7zhrG7DtvqIo5GxHo=")
+    STRING_SESSION = os.environ.get("STRING_SESSION", "")
     
     # database config
     DB_NAME = os.environ.get("DB_NAME", "renamebot")     
