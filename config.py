@@ -4,8 +4,8 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
 
-    API_ID = os.environ.get("API_ID", "")
-    API_HASH = os.environ.get("API_HASH", "")
+    API_ID = os.environ.get("API_ID", "36028208")
+    API_HASH = os.environ.get("API_HASH", "5c51aea3e36452b247905f63efaac783")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
     BOT = None
 
