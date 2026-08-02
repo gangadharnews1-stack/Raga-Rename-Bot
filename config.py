@@ -4,22 +4,22 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
 
-    API_ID = os.environ.get("API_ID", "")
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID = os.environ.get("API_ID", "36028208")
+    API_HASH = os.environ.get("API_HASH", "5c51aea3e36452b247905f63efaac783")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8801495706:AAGIIFBAuWQQ99HquiAU1YW7htKesvX4e7A") 
     BOT = None
 
     # premium account string session required 😢 
-    STRING_SESSION = os.environ.get("STRING_SESSION", "")
+    STRING_SESSION = os.environ.get("STRING_SESSION", "1BVtsOHQBuzSuNI72HS_iVpcZlVcTE8osN9hBZ_s7EyziONga8HmDbKhXpWMCRpqArk77-t93cG15RUAZex6DHDwRvdotluoQSTgoOdg3av2XNfD3gQG4Aiq1p4QU29K8VpRrvFiG_u8-VtAhrarIZx5X81Ko9l43LTuVT-9l3TKzNpFUyVnzK4JE1XjV-C0B-hUAkVuGcoMENcxy5MVptZ9zQaSNgAoSQbYOLvAT0yUjM65K-y42KWVD31GuR71d8ANMNLqThZLP0bb8j5LVNd0Jeab4T0xSAvUJ2lt7O9p7Q5Ektq4EEKgqfAAqNPfdLJ0eLAMKPkx5VM7zhrG7DtvqIo5GxHo=")
     
     # database config
     DB_NAME = os.environ.get("DB_NAME", "Rename_Bot")     
-    DB_URL = os.environ.get("DB_URL", "")
+    DB_URL = os.environ.get("DB_URL", "mongodb+srv://Gangadhar123:Gangadhar123@cluster0.gfqrr6v.mongodb.net/?appName=Cluster0")
  
     # other configs
     PIC = os.environ.get("PIC", "https://i.ibb.co/YTk9gzhY/IMG-20250906-144306-804.jpg")
-    ADMIN = int(os.environ.get("ADMIN", "1255023013"))
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+    ADMIN = int(os.environ.get("ADMIN", "8503265724"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003955882226"))
 
     # free upload limit 
     FREE_UPLOAD_LIMIT = 6442450944 # calculation 6*1024*1024*1024=results
@@ -30,8 +30,8 @@ class Config(object):
     
     #force subs
     IS_FSUB = os.environ.get("IS_FSUB", "False").lower() == "true"  # Set "True" For Enable Force Subscribe
-    AUTH_CHANNELS = list(map(int, os.environ.get("AUTH_CHANNELS", "").split())) # Add Multiple channel ids
-    AUTH_REQ_CHANNELS = list(map(int, os.environ.get("AUTH_REQ_CHANNELS", "").split())) # Add Multiple channel ids
+    AUTH_CHANNELS = list(map(int, os.environ.get("AUTH_CHANNELS", "-1003720018816").split())) # Add Multiple channel ids
+    AUTH_REQ_CHANNELS = list(map(int, os.environ.get("AUTH_REQ_CHANNELS", "-1003720018816").split())) # Add Multiple channel ids
     FSUB_EXPIRE = int(os.environ.get("FSUB_EXPIRE", 2))  # minutes, 0 = no expiry
         
     # wes response configuration     
